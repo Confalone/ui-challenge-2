@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+    UI-Challenge 2
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/base.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/layout.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/modules.css" />
+</head>
+<body>
+  <header>
+      <h1>UI Challenge -Custom Form Elements</h1>
+  </header>
+  <main>
+      <form>
+          <fieldset>
+              <div class = "fieldSet">text <input type="text" name ="textInput" placeholder ="placeholder text"></div>
+              <div class = "validation">text input w/ validation error<input type="text" name ="validation" placeholder ="placeholder text"></div>
+              <div class = "select box">select box<input type="text" name ="select box" placeholder ="please select an option..."></div>
+              <div class="fieldSet">select box - open<br>
+                <select name="options">
+                  <option class = "grey" value="option1">Option 1</option>
+                  <option class = "greyer" value="option2">Option 2</option>
+                  <option class = "grey" value="option3">Option 3</option>
+                  <option class = "greyer" value="option4">Option 4</option>
+                  <option class = "grey" value="option5">Option 5</option>
+                </select>
+              </div>
+              <div class="fieldSet">checkbox<br>
+                <input type="checkbox">
+                <input type="checkbox" checked = "checked">
+              </div>
+              <div class="fieldSet">radio<br>
+                <input type="radio">
+                <input type="radio" checked = "checked">
+              </div>
+              <div class="fieldSet">
+                    <button id="grey submit">submit</button>
+                    <button id="greyer submit">submit</button>
+                  </div>
+          </fieldset>
+      </form>
+  </main>
+</body>
+</html>
